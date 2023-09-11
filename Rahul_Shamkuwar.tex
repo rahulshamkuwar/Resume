@@ -1,0 +1,197 @@
+%-------------------------
+% Resume in Latex
+% Author : Rahul Shamkuwar
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSingleItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Rahul Shamkuwar}} & Email : \href{mailto:rahulshamkuwar20@gmai.com}{rahulshamkuwar20@gmail.com}\\
+  & Mobile : \href{tel:+6692820030}{+1-669-282-0030} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Colorado Boulder}{Boulder, CO}
+{Bachelor of Science in Computer Science;  GPA: 3.913}{Fall 2022 -- Fall 2024}
+\resumeSubheading
+{University of Illinois Urbana-Champaign}{Urbana-Champaign, IL}
+{Bachelor of Science in Aerospace Engineering;  GPA: 3.46}{Fall 2020-- Spring 2022}
+\resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{Languages}
+{Typescript, JavaScript, Scala, Python, Dart, C/C++, C\#, Java, SQL, NoSQL.}
+\resumeSubItem{Technologies}
+{Node.js, Nest.js, React, Next.js, Flutter, React Native, Tailwind, Swagger, Postman.}
+\resumeSubItem{Tools}
+{AWS, Docker, GitHub Actions, Git, ESLint, Prisma, Firebase, pandas, NumPy, JupyterLab, Jira, Jest.}
+\resumeSubItem{Knowledge}
+{Linux, CI/CD, UI/UX, Data Science, Agile, Waterfall.}
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Skillsprint}{Boulder, CO}
+{Sr. Software Engineer}{November 2022 - Present}
+\resumeItemListStart
+\resumeItem{Advanced Authentication Development}
+{Engineered a robust authentication system using JWT tokens and Nest.js route guards, significantly bolstering application security and ensuring secure user access.}
+\resumeItem{Technological Integration Mastery}
+{Successfully integrated and optimized diverse tech stack (Prisma, Swagger, Prettier, PostgreSQL) for efficient backend service.}
+\resumeItem{CI/CD}
+{Implemented GitHub Actions to automate testing and cloud deployment, streamlining the CD pipeline to Vercel for frontend and AWS EC2 for backend services, enhancing development agility and reliability.}
+\resumeItem{UI/UX Leadership}
+{Led the design efforts for the Athena project's user interface and user experience (UI/UX) by crafting comprehensive wireframes using Figma and MUI components.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Blueprint}{Boulder, CO}
+{Software Engineer}{January 2023 - April 2023}
+\resumeItemListStart
+\resumeItem{SQL Migration}
+{Designed, developed, and executed a migration script using MySQL to transition from legacy to a new database schema, demonstrating deep technical expertise and attention to detail.}
+\resumeItem{End-to-End Testing}
+{Managed end-to-end testing and validation of migration process, effectively ensuring data integrity, minimal downtime, and zero data loss during the transition.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Costa Rica Customs Research}{Urbana-Champaign, IL}
+{Software Engineer Researcher}{September 2021 - December 2021}
+\resumeItemListStart
+\resumeItem{Quality Assurance and Bug Resolution}
+{Diagnosed and resolved critical application issues, proactively enhancing user experience by systematically identifying and addressing input-related errors.}
+\resumeItem{Innovative Feature Development}
+{Spearheaded the conceptualization and integration of a cutting-edge User Experience (UX) system, elevating the overall usability and satisfaction of the application.}
+\resumeItem{Cross-Functional Collaboration}
+{Orchestrated productive collaboration with a diverse team of 4 members, harmonizing efforts to achieve project objectives and timelines.}
+\resumeItemListEnd
+
+\resumeSubheading
+{ACM@UIUC}{Urbana-Champaign, IL}
+{Chair of SIG Mobile}{May 2021 - May 2022}
+\resumeItemListStart
+\resumeItem{Mobile App Development Leadership}
+{Led and participated in full-stack development of a mobile app using Flutter for the frontend and Express for the backend.}
+\resumeItem{Cutting-Edge Website Development}
+{Pioneered the design and development of a dynamic and responsive website for SIGMobile, harnessing the power of Nuxt.js 3 to elevate the club's online presence and accessibility.}
+\resumeItem{Knowledge Sharing and Skill Enhancement}
+{Fostered continuous learning through organizing and leading Flutter educational sessions, enabling club members to enhance coding skills and adopt industry best practices.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Mobile App}
+{Conceptualized and crafted an open source, dynamic mobile application that harnessed the power of AniList's GraphQL API, establishing a cutting-edge platform for users to access and interact with anime-related content.}
+\resumeSubItem{Achieved 2nd Place at HackCU}
+{Engineered a Chess-Street Fighter-inspired Unity game in just 24 hours, showcasing adaptability and creativity.}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
