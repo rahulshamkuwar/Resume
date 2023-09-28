@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.5)  14 SEP 2023 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.5)  28 SEP 2023 09:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Coding/resume/Rahul_Shamkuwar.tex
-(c:/Coding/resume/Rahul_Shamkuwar.tex
+**c:/Coding/Resume/Rahul_Shamkuwar.tex
+(c:/Coding/Resume/Rahul_Shamkuwar.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-24> (C:\Users\rahul\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -307,13 +307,13 @@ Package rerunfilecheck Info: File `Rahul_Shamkuwar.out' has not changed.
 Here is how much of TeX's memory you used:
  10348 strings out of 476375
  167006 string characters out of 5788976
- 1879299 words of memory out of 5000000
+ 1882299 words of memory out of 5000000
  30603 multiletter control sequences out of 15000+600000
  518555 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,287b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,309b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rahul\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\rahul\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/rahul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rahul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rahul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rahul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rahul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rahul/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Rahul_Shamkuwar.pdf (1 page, 104499 bytes).
+Output written on Rahul_Shamkuwar.pdf (1 page, 105347 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)

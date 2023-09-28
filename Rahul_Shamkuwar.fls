@@ -1,6 +1,6 @@
-PWD c:\Coding\resume
+PWD c:\Coding\Resume
 INPUT C:\Users\rahul\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Coding\resume\Rahul_Shamkuwar.tex
+INPUT c:\Coding\Resume\Rahul_Shamkuwar.tex
 OUTPUT Rahul_Shamkuwar.log
 INPUT C:\Users\rahul\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\rahul\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

@@ -40,8 +40,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -65,7 +65,7 @@
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -73,23 +73,23 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-5pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -136,7 +136,7 @@
 
 \resumeSubheading
 {Skillsprint}{Boulder, CO}
-{Sr. Software Engineer}{November 2022 - Present}
+{Founding Software Engineer}{November 2022 - Present}
 \resumeItemListStart
 \resumeItem{Advanced Authentication Development}
 {Engineered a robust authentication system using JWT tokens and Nest.js route guards, significantly bolstering application security and ensuring secure user access.}
@@ -150,12 +150,16 @@
 
 \resumeSubheading
 {Blueprint}{Boulder, CO}
-{Software Engineer}{January 2023 - April 2023}
+{Infrastructure Lead and Software Engineer}{January 2023 - Present}
 \resumeItemListStart
 \resumeItem{SQL Migration}
 {Designed, developed, and executed a migration script using MySQL to transition from legacy to a new database schema, demonstrating deep technical expertise and attention to detail.}
 \resumeItem{End-to-End Testing}
 {Managed end-to-end testing and validation of migration process, effectively ensuring data integrity, minimal downtime, and zero data loss during the transition.}
+\resumeItem{AWS Amplify Deployment}
+{Spearheaded the deployment of Blueprint's website on AWS Amplify, optimizing its scalability, reliability, and performance while ensuring seamless integration with AWS services, resulting in a robust and highly available web infrastructure.}
+\resumeItem{SSL and Domains}
+{Implemented SSL certificates and configured domain settings, enhancing the website's security and trustworthiness, resulting in improved user confidence and SEO rankings.}
 \resumeItemListEnd
 
 \resumeSubheading
