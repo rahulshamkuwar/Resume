@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this resume will be documented in this file.
 
+## v1.1.4
+### Changed
+  - Changed the auto release action to a different one to support files.
+
 ## v1.1.3
 ### Changed
   - Change regex for commits to default.
