@@ -2,7 +2,7 @@ name: AutoRelease
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main, test ]
 
 jobs:
   release:
