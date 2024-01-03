@@ -14,5 +14,5 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          body_path: ${{ github.workspace }}-CHANGELOG.txt
+          body_path: CHANGELOG.md
           files: Rahul_Shamkuwar.pdf

@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this resume will be documented in this file.
 
+## v1.1.5
+### Changed
+  - Typo fixed.
+
 ## v1.1.4
 ### Changed
   - Changed the auto release action to a different one to support files.
