@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this resume will be documented in this file.
 
+## v1.1.3
+### Changed
+  - Change regex for commits to default.
+
 ## v1.1.2
 ### Changed
   - Change branches on auto release.
