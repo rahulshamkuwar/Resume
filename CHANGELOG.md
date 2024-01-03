@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this resume will be documented in this file.
 
+## v1.1.2
+### Changed
+  - Change branches on auto release.
+  - Update Changelog.
+  - Change regex for commit message to be anything for auto release.
+
 ## v1.1.1
 ### Changed
   - Slight update to auto release.
@@ -9,3 +15,5 @@ All notable changes to this resume will be documented in this file.
 ### Changed
   - Added auto release notes for serving pdf.
   - Added ML technologies.
+  - Change GPA.
+  - Change order for Projects.

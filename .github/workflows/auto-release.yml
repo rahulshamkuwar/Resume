@@ -2,7 +2,7 @@ name: AutoRelease
 
 on:
   push:
-    branches: [ main, test ]
+    branches: [ main ]
 
 jobs:
   release:
@@ -14,5 +14,6 @@ jobs:
           title: "Release: $version"
           tag: "v$semver"
           draft: false
+          regex: "*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
