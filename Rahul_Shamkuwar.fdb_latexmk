@@ -1,13 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1704315320 "/home/rahul/coding/resume/Rahul_Shamkuwar.tex" "Rahul_Shamkuwar.pdf" "Rahul_Shamkuwar" 1704315321 0
-  "/home/rahul/coding/resume/Rahul_Shamkuwar.tex" 1704315320 8351 558e04eaace65ffda8e8da9c16c7b209 ""
+["pdflatex"] 1713453688 "/home/rahul/coding/resume/Rahul_Shamkuwar.tex" "Rahul_Shamkuwar.pdf" "Rahul_Shamkuwar" 1713453689 0
+  "/home/rahul/coding/resume/Rahul_Shamkuwar.tex" 1713453687 8327 ba2305d3d471fa3696947de66c893a04 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -26,7 +25,6 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136768653 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb" 1248133631 32007 e8fa0078355f39467039935974716569 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -92,9 +90,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1702534352 4714557 8611c324a8f3a36f53a15a94509c822c ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1702534423 8217851 45db3fcda938fb36afef83623846476e ""
   "/usr/local/texlive/2023/texmf.cnf" 1702534349 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Rahul_Shamkuwar.aux" 1704315321 663 b0d1ec2eb9415cb86061cd41a39663a6 "pdflatex"
-  "Rahul_Shamkuwar.out" 1704315321 337 acc7b5fc4c0a4ad08ae18660f70ce605 "pdflatex"
-  "Rahul_Shamkuwar.tex" 1704315320 8351 558e04eaace65ffda8e8da9c16c7b209 ""
+  "Rahul_Shamkuwar.aux" 1713453689 663 b0d1ec2eb9415cb86061cd41a39663a6 "pdflatex"
+  "Rahul_Shamkuwar.out" 1713453689 337 acc7b5fc4c0a4ad08ae18660f70ce605 "pdflatex"
+  "Rahul_Shamkuwar.tex" 1713453687 8327 ba2305d3d471fa3696947de66c893a04 ""
   (generated)
   "Rahul_Shamkuwar.aux"
   "Rahul_Shamkuwar.log"
