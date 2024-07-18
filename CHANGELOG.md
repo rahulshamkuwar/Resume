@@ -2,8 +2,9 @@
 
 All notable changes to this resume will be documented in this file.
 
-## v2.0.0
+## v2.1.0
 
 ### Changed
 
-- Replace one position with another
+- Delete a position.
+- Add more experience to Trimble Cloud
