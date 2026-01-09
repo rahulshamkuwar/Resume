@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1767761660.4969 "/Users/rahul.shamkuwar/Documents/Coding/Resume/Rahul_Shamkuwar.tex" "Rahul_Shamkuwar.pdf" "Rahul_Shamkuwar" 1767761661.07067 0
-  "/Users/rahul.shamkuwar/Documents/Coding/Resume/Rahul_Shamkuwar.tex" 1767761660.34589 7884 e2fe9a1510b66fb3fa2df852d18129cc ""
+["pdflatex"] 1767807571.45889 "/Users/rahul.shamkuwar/Documents/Coding/Resume/Rahul_Shamkuwar.tex" "Rahul_Shamkuwar.pdf" "Rahul_Shamkuwar" 1767807572.10814 0
+  "/Users/rahul.shamkuwar/Documents/Coding/Resume/Rahul_Shamkuwar.tex" 1767807571.29814 7850 6faf177b3b4c97744f870a5db976955b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -89,9 +89,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1767760159 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Rahul_Shamkuwar.aux" 1767761661.02611 596 d44eae6354a2f8ffadec436a5309e3b6 "pdflatex"
-  "Rahul_Shamkuwar.out" 1767761661.02677 254 a9097f1c6e6e85ecf2dbfa7b8163be5c "pdflatex"
-  "Rahul_Shamkuwar.tex" 1767761660.34589 7884 e2fe9a1510b66fb3fa2df852d18129cc ""
+  "Rahul_Shamkuwar.aux" 1767807572.05809 596 5c8070ad6de2f2b4c4eb9b146ad4847d "pdflatex"
+  "Rahul_Shamkuwar.out" 1767807572.05881 254 ec35c75adb7fa22be14d3b8a4b8b76b8 "pdflatex"
+  "Rahul_Shamkuwar.tex" 1767807571.29814 7850 6faf177b3b4c97744f870a5db976955b ""
   (generated)
   "Rahul_Shamkuwar.aux"
   "Rahul_Shamkuwar.log"
