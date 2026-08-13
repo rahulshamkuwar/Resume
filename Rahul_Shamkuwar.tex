@@ -49,51 +49,55 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
+\item\small{
     \textbf{#1}{: #2 \vspace{-2pt}}
   }
 }
 
 \newcommand{\resumeSingleItem}[1]{
-  \item\small{
+\item\small{
     {#1 \vspace{-2pt}}
   }
 }
 
 % Just in case someone needs a heading that does not need to be in a list
 \newcommand{\resumeHeading}[4]{
-    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt}
+  \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2\vspace{-2pt} \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt}
+  \vspace{-1pt}
+\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2\vspace{-2pt} \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-8pt}
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-5pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
+\newcommand{\resumeSubHeadingListStart}{
+\begin{itemize}[leftmargin=*]}
+    \newcommand{\resumeSubHeadingListEnd}{
+\end{itemize}}
+\newcommand{\resumeItemListStart}{
+\begin{itemize}}
+    \newcommand{\resumeItemListEnd}{
+\end{itemize}\vspace{-8pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \begin{document}
 
@@ -114,12 +118,14 @@
 \resumeItemListStart
 \resumeItem{AI Agent Observability \& Evaluation Platform (Python)}
 {Architected and productionized Aval, a Python framework for evaluating LLM-powered AI agents via async, graph-based evaluations integrated with LangSmith. Engineered CI/CD packaging pipelines to accelerate developer iteration.}
-\resumeItem{API Design \& Backend Engineering (FastAPI)}
-{Built and scaled FastAPI services powering the Workday Self-Service, AP Intelligence, and Procurement AI agents; integrated external APIs, the LangGraph agent runtime, and RDS PostgreSQL, resolving concurrency bottlenecks via async handling.}
+\resumeItem{Finance Agent Development (FastAPI/LangGraph)}
+{Scaffolded fin-procurement-agent using the ReAct pattern in agent-forge; built and scaled FastAPI services powering Self-Service, AP Intelligence, and Procurement finance AI agents, integrating the LangGraph runtime, external APIs, and RDS PostgreSQL.}
+\resumeItem{Agent Architecture \& Graph Design}
+{Designed and validated a POC for a custom stateless LangGraph backend, decoupling the Procurement agent into an independent graph; implemented human-in-the-loop (HITL) intervention capabilities for agent workflows.}
 \resumeItem{Full-Stack Product Development (React/TS/Python/PostgreSQL)}
 {Led end-to-end delivery of the GenAI Studio observability \& evals interface (React/TypeScript + Python), designing PostgreSQL models that power complex evaluation metrics at scale.}
-\resumeItem{Cross-Functional Collaboration}
-{Partnered with product, design, and 4 stakeholder teams to iterate on the roadmap, led design reviews on architecture and data modeling, and mentored engineers.}
+\resumeItem{Cross-Team Technical Leadership (Hive Integration)}
+{Led cross-team technical discovery with the Hive/Resolution Agent team on permissioning, versioning, and intent classification; authored proposals that resolved integration blockers and aligned engineering teams on a shared path forward.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -138,8 +144,6 @@
 {Workday}{Boulder, CO}
 {Software Development Engineer Intern}{May 2024 - Aug 2024}
 \resumeItemListStart
-\resumeItem{Internal Developer Tools}
-{Engineered a custom Rich Text Editor dev tool for prompt validation and code testing, helping developers improve HTML formatting with a 90\% success rate.}
 \resumeItem{Automated Releases \& CI/CD}
 {Parallelized release pipelines and test automation in GitHub Actions, reducing pipeline execution time by 15\% and setup times by 25\%.}
 \resumeItem{External Service Integration}
@@ -154,12 +158,9 @@
 {Established a Kubernetes cluster for microservices and deployed AWS Lambda functions, increasing processing efficiency by 20\% and reducing latency.}
 \resumeItem{Cloud Infrastructure \& Automation}
 {Architected distributed AWS applications with Terraform (IaC), accelerating deployment provisioning by 30\%.}
-\resumeItem{Networking \& Data Storage}
-{Scaled RDS PostgreSQL instances and indexed large data volumes, optimizing query performance by 25\%.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-
 
 %--------PROGRAMMING SKILLS------------
 \section{Skills}
@@ -167,13 +168,12 @@
 \resumeSubItem{Languages}
 {Python, TypeScript, JavaScript, SQL (PostgreSQL), Java, C++, HCL (Terraform), HTML/CSS.}
 \resumeSubItem{Technologies}
-{React, Next.js, Node.js, FastAPI, Flask, REST APIs, Docker, Kubernetes, AWS, CI/CD (GitHub Actions).}
+{LangGraph,React, Next.js, Node.js, FastAPI, Flask, REST APIs, Docker, Kubernetes, AWS, CI/CD (GitHub Actions).}
 \resumeSubItem{Data \& AI}
-{PostgreSQL, RDS, Prisma, pandas, NumPy, LLMs, LangGraph, AI Agent Evaluation, Observability.}
+{PostgreSQL, RDS, Prisma, pandas, NumPy, LLMs, LangGraph, Multi-Agent Systems, AI Agent Evaluation, Observability.}
 \resumeSubItem{Core Competencies}
-{Full-Stack Development, API Design \& Scaling, Distributed Systems, Stakeholder Collaboration, System Design.}
+{Full-Stack Development, Agent Architecture Design, API Design \& Scaling, Distributed Systems, Cross-Team Technical Leadership, System Design.}
 \resumeSubHeadingListEnd
-
 
 %-----------EDUCATION-----------------
 \section{Education}
